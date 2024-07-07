@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/fevicon.png" type="">
+
+  <title> Cerba </title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <div class="logo-cerba">
+                <img src="images/logo-cerba.png" alt="" style="width: 250px; height: auto;">
+              </div>
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Setores.html">setores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sustentabilidade.html">Sustentabilidade</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const currentLocation = window.location.href;
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+        navLinks.forEach(link => {
+          if (link.href === currentLocation) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
+    
+    <style>
+      .navbar-nav .nav-item .active {
+        font-weight: bold; /* Estilo para indicar aba ativa */
+        color: #333; /* Cor de texto para aba ativa */
+      }
+    </style>
+    
+    <!-- end header section -->
+  </div>
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Nossos <span>Serviços</span>
+          </h2>
+          <p>
+            Explore nossa variedade de serviços especializados em destilação de álcool de alta qualidade. Desde transporte eficiente até processos sustentáveis, nossos serviços são projetados para atender às necessidades do mercado com excelência e compromisso com a qualidade.
+          </p>
+        </div>
+        <div class="service-item" onclick="toggleServiceContent(this)">
+          <div class="service-header">
+            <div class="img-box">
+              <img src="images/s1.png" alt="">
+            </div>
+            <h5>ÁLCOOL ETÍLICO HIDRATADO INDUSTRIAL</h5>
+          </div>
+          <div class="service-content">
+            <p>
+              O Álcool Etílico Hidratado Industrial, comumente chamado de álcool hidratado, possui uma concentração de etanol de cerca de 92,8%. Na Cerba, garantimos que nosso álcool hidratado industrial seja produzido com os mais altos padrões de qualidade para atender às necessidades de nossos clientes industriais.
+                <p>Produção:
+                  Nosso álcool hidratado industrial é produzido através de um processo controlado de fermentação e destilação, seguido por uma cuidadosa adição de água para atingir a concentração desejada. A produção é realizada em instalações modernas, com equipamentos que asseguram a consistência e qualidade do produto final.</p>
+                  <p>Aplicações:
+                    <p>Limpeza e desinfecção: utilizado como solvente e agente de limpeza em indústrias e empresas de serviços de limpeza.</p>
+                    <p>Processos industriais: usado como solvente em diversos processos industriais.</p>
+                  </p>
+            </p>
+          </div>
+        </div>
+        <div class="service-item" onclick="toggleServiceContent(this)">
+          <div class="service-header">
+            <div class="img-box">
+              <img src="images/s3.png" alt="">
+            </div>
+            <h5>ÁLCOOL ETÍLICO HIDRATADO NEUTRO</h5>
+          </div>
+          <div class="service-content">
+            <p>
+              O Álcool Etílico Hidratado Neutro, também conhecido como álcool neutro hidratado, é um produto com concentração de aproximadamente 96% de etanol e 4% de água. Na Cerba, este tipo de álcool é produzido com um rigoroso controle de qualidade, garantindo sua pureza e adequação para diversas aplicações industriais e comerciais.
+                <p>Produção: 
+                  Nosso processo de produção começa com a seleção das melhores matérias-primas, que são fermentadas e destiladas utilizando tecnologia de ponta. A destilação é feita em colunas especialmente projetadas para remover impurezas e produzir um álcool de alta pureza. O resultado é um produto que atende aos padrões mais exigentes do mercado, com um aroma e sabor neutros, ideais para a produção de bebidas alcoólicas, perfumes e produtos farmacêuticos.</p>
+                  <p>Aplicações:
+                    <p>Bebidas alcoólicas: utilizado como base para a produção de vodcas, licores e outras bebidas.</p>
+                    <p>Cosméticos e perfumes: devido à sua neutralidade e alta pureza, é ideal para a formulação de perfumes e cosméticos.</p>
+                    <p>Farmacêutica: utilizado na produção de medicamentos e soluções antissépticas.</p>
+                  </p>
+            </p>
+          </div>
+        </div>
+        <div class="service-item" onclick="toggleServiceContent(this)">
+          <div class="service-header">
+            <div class="img-box">
+              <img src="images/s4.png" alt="">
+            </div>
+            <h5>ÁLCOOL ETÍLICO ANIDRO INDUSTRIAL</h5>
+          </div>
+          <div class="service-content">
+            <p>
+              O Álcool Etílico Anidro Industrial é um etanol com pureza superior a 99%, caracterizado pela ausência de água. Este tipo de álcool é essencial para aplicações onde a presença de água pode comprometer o processo ou a qualidade do produto final.
+                <p>Produção:
+                  Na Cerba, a produção do álcool anidro é realizada através de destilação e desidratação rigorosas, utilizando tecnologia avançada que assegura a remoção completa de água. Nosso processo garante um produto final com alta pureza, adequado para diversas aplicações industriais.</p>
+                  <p>Aplicações:
+                    <p>Indústria química: empregado como reagente e solvente em processos químicos.</p>
+                    <p>Produção de cosméticos e farmacêuticos: usado em formulações que requerem um solvente sem água.</p>
+                  </p>
+            </p>
+          </div>
+        </div>
+        <div class="service-item" onclick="toggleServiceContent(this)">
+          <div class="service-header">
+            <div class="img-box">
+              <img src="images/s5.png" alt="">
+            </div>
+            <h5>ÁLCOOL ETÍLICO ANIDRO NEUTRO</h5>
+          </div>
+          <div class="service-content">
+            <p>
+              O Álcool Etílico Anidro Neutro possui pureza superior a 99%, sendo especialmente produzido para aplicações que exigem um produto de alta qualidade e sem impurezas.
+                <p>Produção:
+                  Na Cerba, a produção inclui fermentação controlada e destilação avançada, seguida por desidratação para remover qualquer traço de água, resultando em um álcool de pureza excepcional.</p>
+                  <p>Aplicações:
+                    <p>Indústria farmacêutica: produção de medicamentos e produtos sanitários.</p>
+                    <p>Cosméticos e perfumes: solvente ideal para formulações delicadas.</p>
+                    <p>Bebidas alcoólicas: base para destilados de alta qualidade.</p>
+                  </p>
+          </div>
+        </div>
+        <div class="service-item" onclick="toggleServiceContent(this)">
+          <div class="service-header">
+            <div class="img-box">
+              <img src="images/s2.png" alt="">
+            </div>
+            <h5>DESTILADO ALCOÓLICO</h5>
+          </div>
+          <div class="service-content">
+            <p>
+              O Destilado Alcoólico é um produto obtido através da destilação de matérias-primas fermentadas, resultando em um líquido com alto teor alcoólico. Este tipo de álcool é a base fundamental para a produção de bebidas espirituosas e outros produtos alcoólicos.
+                <p>Produção:
+                  Na Cerba, o processo de destilação utiliza alambiques e colunas modernas que garantem a remoção de impurezas, resultando em um destilado de alta qualidade. Combinamos técnicas tradicionais com inovação tecnológica para assegurar a pureza e o sabor desejados.</p>
+                  <p>Aplicações:
+                    <p>Bebidas alcoólicas: base para a produção de vodcas, whiskies, licores e outras bebidas destiladas.</p>
+                    <p>Aromatizantes: utilizado na produção de extratos e essências.</p>
+                    <p>Cosméticos e perfumaria: empregado na formulação de fragrâncias e produtos de cuidado pessoal.</p>
+                  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+  .service-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .service-header {
+    display: flex;
+    align-items: center;
+  }
+  .service-header .img-box {
+    margin-right: 10px;
+    border: 2px solid black; /* Borda preta */
+    border-radius: 8px; /* Canto arredondado */
+    padding: 3px; /* Espaço entre imagem e borda */
+  }
+  .service-header .img-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px; /* Remove o corte da imagem */
+  }
+  .service-item h5 {
+    margin: 0;
+  }
+  .service-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  .service-content p,
+  .service-content a {
+    margin: 0;
+    padding: 10px 0;
+  }
+  </style>
+  
+  <script>
+  function toggleServiceContent(element) {
+    const allItems = document.querySelectorAll('.service-item');
+    allItems.forEach(item => {
+      if (item !== element) {
+        item.querySelector('.service-content').style.maxHeight = '0';
+      }
+    });
+  
+    const content = element.querySelector('.service-content');
+    if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    } else {
+      content.style.maxHeight = '0';
+    }
+  }
+  </script>
+  
+
+  <!-- end service section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Endeço
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Localização
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Telefone (19) 3429-0929
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  cerba@cerba.com.br
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              Comprometidos com a satisfação dos clientes e a preservação ambiental.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="index.html">
+                <img src="images/nav-bullet.png" alt="">
+                Início
+              </a>
+              <a class="" href="about.html">
+                <img src="images/nav-bullet.png" alt="">
+                Sobre Nós
+              </a>
+              <a class="" href="service.html">
+                <img src="images/nav-bullet.png" alt="">
+                Serviços
+              </a>
+              <a class="" href="Setores.html">
+                <img src="images/nav-bullet.png" alt="">
+                Setores
+              </a>
+              <a class="" href="sustentabilidade.html">
+                <img src="images/nav-bullet.png" alt="">
+                Sustentabilidade
+              </a>
+              <a class="" href="contact.html">
+                <img src="images/nav-bullet.png" alt="">
+                Contatos
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Entre em Contato
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Digite seu E-mail" />
+            <button type="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> Criado por
+        <a href="https://github.com/luuizpeedro">luuizpeedro</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
