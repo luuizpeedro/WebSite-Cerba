@@ -2,7 +2,7 @@
 
 ### Descrição
 
-Este projeto é o desenvolvimento do site oficial da Cerba, uma empresa dedicada à produção de álcool neutro, destilado alcoólico e anidro neutro. O site tem como objetivo fornecer informações detalhadas sobre os produtos, serviços e valores da empresa, além de facilitar a comunicação com clientes, colaboradores e fornecedores.
+Este é o projeto da Cerba, uma empresa dedicada à produção de álcool neutro, destilado alcoólico e anidro neutro. O site tem como objetivo fornecer informações detalhadas sobre os produtos, serviços e valores da empresa, além de facilitar a comunicação com clientes, colaboradores e fornecedores.
 
 # Funcionalidades
 
