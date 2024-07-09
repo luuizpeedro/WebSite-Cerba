@@ -22,12 +22,7 @@
 
 ![Alt text](screenshots/Screenshot_5.png)
 
-# Descrição
-=======
-# Site Cerba
-
 ### Descrição
->>>>>>> 2527653f004b9c96f206ab89979d2d8dc151ab81
 
 Este é o projeto da Cerba, uma empresa dedicada à produção de álcool neutro, destilado alcoólico e anidro neutro. O site tem como objetivo fornecer informações detalhadas sobre os produtos, serviços e valores da empresa, além de facilitar a comunicação com clientes, colaboradores e fornecedores.
 
@@ -42,9 +37,5 @@ Blog/Notícias: Atualizações e notícias relevantes sobre a empresa e o setor.
 
 # Tecnologias Utilizadas
 
-<<<<<<< HEAD
 Front-end: HTML, CSS, JavaScript.
 
-=======
-Front-end: HTML, CSS, JavaScript
->>>>>>> 2527653f004b9c96f206ab89979d2d8dc151ab81
