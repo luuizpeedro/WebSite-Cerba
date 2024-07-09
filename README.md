@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-"# WebSite-Cerba" 
 # Site Cerba
 
 ### Abaixo Segue Alguns Prints Do Site
